@@ -54,18 +54,3 @@ def five_letters2():
 	print(random_eb)
 
 five_letters2()
-
-
-
-
-
-
-
-
-#ubject_two_letters = ['夜', '海', '空', '昼', '石', '豆', '熊', '蝉']
-#subject_three_letters = ['魚' , 'かもめ', '子猫', '雀'　, 'マグロ', 'つばめ']
-#subject_four_letters = ['石橋'　,'なめくじ', 'うみうし' , 'かにかま', 'シマウマ', 'ウミガメ']
-
-
-#predicate_one_letters = ['を', 'に', 'や', 'も', 'よ']
-#predicate_two_letters = ['たち', 'の音'　, 'の目'　,]
