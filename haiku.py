@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import random
 import time
 
@@ -7,7 +9,7 @@ def sl2():
 	time.sleep(2)
 
 #List of season words
-five_letters = ['oozorani', 'oiyukuka', 'akisameno', 'sayonarato', 'seminoyou', 'ninnnikune', 'hadukasii', 'tanosiiyo', 'kiminokoto', 'koikogare', 'natukesii']
+five_letters = ['大空に''oozorani', 'oiyukuka', 'akisameno', 'sayonarato', 'seminoyou', 'ninnnikune', 'hadukasii', 'tanosiiyo', 'kiminokoto', 'koikogare', 'natukesii']
 seven_characters = ['otirunamidani' ,'sakananoyouni', 'hanabitotomoni' , 'kurusimagireno' , 'hosihuruyoruno', 'tukimohohoemu' ]
 
 choice_five1 = random.choice(five_letters)
