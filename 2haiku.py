@@ -6,6 +6,7 @@ def sl1():
 def sl2():
 	time.sleep(2)
 
+#５文字生成
 
 #2+1-2
 def five_letters():
@@ -24,9 +25,21 @@ def five_letters():
 
 	print(random_sub + random_cw + random_pre)
 
-five_letters()
-sl2()
 
+#5
+def five_letters2():
+	import random
+	#endless beauty
+	eb = ['花曇り','はかなさよ','ふるさとよ','旅人よ','最上川','ふじの山','恋人よ','想い人','せつなさよ','友とゆく','泡の中']
+	random_eb = random.choice(eb)
+
+	print(random_eb)
+
+
+
+
+
+ #七文字生成
 #2+1+4
 def seven_characters():
 	import random
@@ -42,15 +55,11 @@ def seven_characters():
 
 	print(random_sub + random_cw + random_pre)
 
+
+
+
+five_letters()
+sl2()
 seven_characters()
 sl2()
-
-def five_letters2():
-	import random
-	#endless beauty
-	eb = ['花曇り','はかなさよ','ふるさとよ','旅人よ','最上川','ふじの山','恋人よ','想い人','せつなさよ','友とゆく','泡の中']
-	random_eb = random.choice(eb)
-
-	print(random_eb)
-
 five_letters2()
